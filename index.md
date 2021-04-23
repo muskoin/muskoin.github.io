@@ -1,7 +1,8 @@
 ## Welcome to GitHub Pages
 
 
-![Image](https://github.com/muskoin/muskoin/blob/main/src/assets/svg/logo_coin_black.svg)
+![Image](./media/svg/logo_coin_black.svg)
+
 You can use the [editor on GitHub](https://github.com/muskoin/muskoin.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
