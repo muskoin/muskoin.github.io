@@ -36,3 +36,8 @@ Step 2: Click the button that says "To the Moon!" (Metamask must be connected to
 Visit <a href="http://muskoin.app/#/memelords">muskoin.app/#/memelords</a> to see who owns Muskoins!
 
 When Elon mints a coin, you will be able to see it in this table.
+
+### Contributing
+
+We built this project for fun and love sweet memes. We welcome proposed improvements to the source code. If you'd like to contribute, 
+you can open a PR to our Github repository.
