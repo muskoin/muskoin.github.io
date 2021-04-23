@@ -39,5 +39,5 @@ When Elon mints a coin, you will be able to see it in this table.
 
 ### Contributing
 
-We built this project for fun and love sweet memes. We welcome proposed improvements to the source code. If you'd like to contribute, 
+We built this project for fun and love of sweet memes. We welcome proposed improvements to the source code. If you'd like to contribute, 
 you can open a PR to our Github repository.
