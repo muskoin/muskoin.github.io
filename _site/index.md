@@ -14,7 +14,7 @@ We have already built the technical infrastructure to make this a reality. Help 
 
 # How to earn Muskoin 
 
-<video width="480" height="320" controls="controls">
+<video width="100%" controls="controls">
   <source src="./media/meme_instructions.mp4" type="video/mp4">
 </video>
 
@@ -37,7 +37,7 @@ Tweet at Elon (e.g. on Twitter) and get him to click the link.
 
 # How Elon mints coins
 
-<video width="480" height="320" controls="controls">
+<video width="100%" controls="controls">
   <source src="./media/mint_instructions.mp4" type="video/mp4">
 </video>
 
