@@ -49,7 +49,7 @@ He then clicks the convenience link provided by a meme-maker in their tweet. It 
 
 ## Step 2
 
-With Metamask connected to the dApp, click the button that says "To the Moon!". If Metamask is not connected, this button will help him connect it.
+With Metamask connected to the dApp, click the button that says "To the Moon!" If Metamask is not connected, this button will help him connect it.
 
 # Leaderboard
 
@@ -60,4 +60,4 @@ When Elon mints a coin, you will be able to see it in this table.
 # Contributing
 
 We built this project for fun and love of sweet memes. We welcome proposed improvements to the source code. If you'd like to contribute, 
-you can open a PR to our Github repository.
+you can open a PR to our <a href="https://github.com/muskoin/muskoin">Github repository</a>.
