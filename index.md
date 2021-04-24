@@ -4,9 +4,7 @@
 
 # About Muskoin
 
-The only person who can mint a Muskoin is <a href="https://media.giphy.com/media/3jcgPn9fzfaXc1EHJC/giphy.gif">Elon Musk</a>.
-
-A Muskoin is an Ethereum-based ERC-721 <a href="https://en.wikipedia.org/wiki/Non-fungible_token">non-fungible token (NFT)</a> containing a meme signed by Elon Musk.
+The only person who can mint a Muskoin is <a href="https://media.giphy.com/media/3jcgPn9fzfaXc1EHJC/giphy.gif">Elon Musk</a>. A Muskoin is an Ethereum-based ERC-721 <a href="https://en.wikipedia.org/wiki/Non-fungible_token">non-fungible token (NFT)</a> containing a meme signed by Elon Musk.
 
 If you send Elon a meme and he likes it, he might mint you a Muskoin.
 
@@ -29,11 +27,11 @@ Visit <a href="http://muskoin.app/#/meme">muskoin.app/#/meme</a>.
 
 ## Step 2
 
-Input your meme URL and your Ethereum wallet address. 
+Input your meme URL and your Ethereum wallet address then copy the link the app generates for you. 
 
 ## Step 3
 
-Tweet at Elon (e.g. on Twitter) and get him to click the link.
+Tweet your meme at Elon (e.g. on Twitter) and include the link from step 2 in your tweet. If its really good, maybe he'll click it. 
 
 # How Elon mints coins
 
@@ -48,11 +46,11 @@ in the Mainnet Muskoin ERC721 contract.
 
 ## Step 1
 
-He then clicks the convenience link provided by a meme-maker. It will auto-fill the fields on this page: <a href="http://muskoin.app/#/mint">muskoin.app/#/mint</a>.
+He then clicks the convenience link provided by a meme-maker in their tweet. It will auto-fill the fields on this page: <a href="http://muskoin.app/#/mint">muskoin.app/#/mint</a>.
 
 ## Step 2
 
-Click the button that says "To the Moon!" (Metamask must be connected to the browser being used). 
+With Metamask connected to the dApp, click the button that says "To the Moon!". 
 
 # Leaderboard
 
