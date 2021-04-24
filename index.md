@@ -27,7 +27,7 @@ Visit <a href="http://muskoin.app/#/meme">muskoin.app/#/meme</a>.
 
 ## Step 2
 
-Input your meme URL and your Ethereum wallet address then copy the link the app generates for you. 
+Input your meme URL and your Ethereum wallet address then copy the link the dApp generates for you. 
 
 ## Step 3
 
