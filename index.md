@@ -45,7 +45,7 @@ We need Elon to DM or tweet his public Ethereum address (just a Metamask wallet 
 
 ## Step 1
 
-He then clicks the convenience link provided by a meme-maker in their tweet. It will auto-fill the fields on this page: <a href="http://muskoin.app/#/mint">muskoin.app/#/mint</a>. If on a smartphone, use the browser built into the <a href="https://metamask.io">Metamask</a> app. 
+He then clicks the convenience link provided by a meme-maker in their tweet. It will auto-fill the fields on this page: <a href="http://muskoin.app/#/mint">muskoin.app/#/mint</a>. If on a smartphone, he should use the browser built into the <a href="https://metamask.io">Metamask</a> app. 
 
 ## Step 2
 
