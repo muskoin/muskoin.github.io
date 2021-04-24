@@ -4,7 +4,7 @@
 
 # About Muskoin
 
-The only person who can mint a Muskoin is <a href="https://media.giphy.com/media/3jcgPn9fzfaXc1EHJC/giphy.gif">Elon Musk</a>. A Muskoin is an Ethereum-based ERC-721 <a href="https://en.wikipedia.org/wiki/Non-fungible_token">non-fungible token (NFT)</a> containing a meme signed by Elon Musk.
+The only person who can mint a Muskoin is <a href="https://media.giphy.com/media/3jcgPn9fzfaXc1EHJC/giphy.gif">Elon Musk</a>. A Muskoin is an <a href="https://ethereum.org">Ethereum</a>-based ERC-721 <a href="https://en.wikipedia.org/wiki/Non-fungible_token">non-fungible token (NFT)</a> containing a meme signed by Elon Musk.
 
 If you send Elon a meme and he likes it, he might mint you a Muskoin.
 
