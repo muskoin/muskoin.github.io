@@ -1,25 +1,13 @@
 \documentclass{article}
-\usepackage{natbib}
-\usepackage{graphicx}
-\usepackage[colorlinks = true,
-            linkcolor = blue,
-            urlcolor  = blue,
-            citecolor = blue,
-            anchorcolor = blue]{hyperref}
 \usepackage[utf8]{inputenc}
-% Anonymize PDF
-\pdfinfo{
-  /Title ()
-  /Creator ()
-  /Producer ()
-  /Author ()
-  /Subject ()
-  /Keywords ()
-}
 
 \title{Muskoin Protocol}
-\author{\href{http://www.twitter.com/MuskoinApp}{@MuskoinApp} and \href{http://www.twitter.com/Muskrat42069}{@Muskrat42069}}
+\author{@MuskoinApp and @Muskrat42069}
 \date{April 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{hyperref}
 
 \begin{document}
 
@@ -50,11 +38,13 @@ to execute arbitrary computational logic over a decentralized network of compute
 time, index its first appearance on the web.
 
 \section{Technical Implementation}
-The Muskoin Protocol is based on the ERC-721 non-fungible token (NFT) standard. Each NFT minted consists of an owner address and a token URI which permanently and immutably stores the hosting location of a meme on the Internet. 
+The Muskoin Protocol is based on the ERC-721 non-fungible token (NFT) standard. Each NFT minted consists of an owner address and a token URI which permanently and immutably stores the hosting location of a meme on the Internet.
 
 The smart contract (Muskoin.sol) which contains the data-structures representing the NFTs is deployed to the Ethereum Mainnet. The smart contract itself contains two roles: MINTER\_ROLE and MINTER\_ADMIN\_ROLE. Upon initial deployment of the Muskoin.sol contract, the deployment wallet address is a member of both of these roles. The MINTER\_ADMIN\_ROLE has the authority to add new wallet addresses to the MINTER\_ROLE list. Only wallet addresses included in the MINTER\_ROLE list are allowed to issue new Muskoin NFTs. Members of either role can renounce their position by making a transaction call to the 'renounceRole' member function of Muskoin.sol. 
 
-The user interface that allows interaction with the deployed Muskoin.sol contract is a React-based web application hosted on IPFS via the fleek.co service. We borrowed heavily from the Uniswap project for our first implementation of the Muskoin dApp and welcome proposed improvements from the community to our Github repository. 
+The Muskion protocol enforces the uniqueness of each token URI; no Muskoin can point to the same meme location. This allows each Muskoin NFT to function as a nonce which naturally enables a minting technique commonly referred to as 'lazy' minting. Muskoins can be minted directly by a member of the MINTER\_ROLE by calling the $memeAward$ function, supplying a sting for the recipients wallet address and the URI representing the meme's hosting location. Alternatively, a member of the MINTER\_ROLE can cryptographically sign a Muskoin's metadata (the strings representing the token's owner address and its URI) off-chain, send the signature to the recipient, and the recipient can call the $lazyMemeAward$ function themselves, providing the authorization signature that grants them the right to the token. Double minting is prevented since no two URI's are allowed to be the same. This helps offset the burden of high gas costs associated with minting a large number of NFTs on the Ethereum mainnet. 
+
+The user interface that allows interaction with the deployed Muskoin.sol contract is a React-based web application hosted on IPFS via the fleek.co service. We borrowed heavily from the Uniswap project for our first implementation of the Muskoin dApp and welcome proposed improvements from the community to our Github repository. Currently, the user interface does not expose lazy minting functionality, but we plan to implement this capability soon.
 
 \section{Governance}
 
@@ -62,7 +52,7 @@ Our intention for Muskoin Protocol is for it to be self-sustaining and for only 
 
 All roles are easily audited by the community via a simple query to a blockchain scanning service such as Etherscan.
 
-In order to serve as an irrefutable identification of our Twitter accounts associated with the Muskoin Protocol, the first two Muskoin NFTs will be minted such that their URIs will point to our respective Twitter pages. The subsequent two Muskoin NFTs will be minted to point to the official URLs of the Muskoin project, i.e. \href{http://muskoin.ceo}{http://muskoin.ceo} and \href{http://muskoin.app}{http://muskoin.app}. No further Muskoin NFTs will be minted from our actions after these initial four NFTs are created. 
+In order to serve as a blockchain-backed certificate for the official domains of the Muskoin Protocol, the first two Muskoin NFTs will be minted to point to $muskoin.app$ and $muskoin.ceo$. The owner account of these two NFTs will be the only member of the MINTER\_ADMIN\_ROLE. The two official Twitter accounts associated with the authors of this whitepaper will represent the second pair of Muskoin NFTs minted by the protocol. No further Muskoin NFTs will be minted from our actions after these initial four NFTs are created. 
 
 \section{Conclusion}
 
